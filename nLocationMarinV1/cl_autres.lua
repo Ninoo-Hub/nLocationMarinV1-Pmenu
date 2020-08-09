@@ -47,32 +47,32 @@ local nLoc = {
                         OpenMenu('Sous-Marin')
                  elseif btn.name == "Jet-Ski" then
                       TriggerServerEvent('nLoc:buy', 200, "seashark", "Jet-Ski")
-                      ESX.ShowNotification('Vous venez de sortir un Jet-Ski ~r~sans-permis ~w~!')
+                      ESX.ShowNotification('Vous venez de sortir un Jet-Ski !')
                       Citizen.Wait(1)
                       spawnCar("seashark")
                  elseif btn.name == "Bateaux Luxe" then
                       TriggerServerEvent('nLoc:buy', 200, "Jetmax", "Bateaux Luxe")
-                      ESX.ShowNotification('Vous venez de sortir un Jet-Ski ~r~sans-permis ~w~!')
+                      ESX.ShowNotification('Vous venez de sortir un Bateaux Luxe !')
                       Citizen.Wait(1)
                       spawnCar("Jetmax")
                  elseif btn.name == "Bateaux Ancien" then
                     TriggerServerEvent('nLoc:buy', 200, "Speeder", "Bateaux Ancien")
-                    ESX.ShowNotification('Vous venez de sortir un Jet-Ski ~r~sans-permis ~w~!')
+                    ESX.ShowNotification('Vous venez de sortir un Bateaux Ancien !')
                     Citizen.Wait(1)
                     spawnCar("Speeder")
                 elseif btn.name == "Bateaux Visite" then
                     TriggerServerEvent('nLoc:buy', 200, "Suntrap", "Bateaux Visite")
-                    ESX.ShowNotification('Vous venez de sortir un Jet-Ski ~r~sans-permis ~w~!')
+                    ESX.ShowNotification('Vous venez de sortir un Bateaux Visiteur !')
                     Citizen.Wait(1)
                     spawnCar("Suntrap")
                 elseif btn.name == "Sous-Marin Léger" then
                     TriggerServerEvent('nLoc:buy', 200, "Submersible", "Sous-Marin Léger")
-                    ESX.ShowNotification('Vous venez de sortir un Jet-Ski ~r~sans-permis ~w~!')
+                    ESX.ShowNotification('Vous venez de sortir un Sous-Marin Léger !')
                     Citizen.Wait(1)
                     spawnCar("Submersible2")
                 elseif btn.name == "Sous-Marin Explorateur" then
                     TriggerServerEvent('nLoc:buy', 200, "Submersible2", "Sous-Marin Explorateur")
-                    ESX.ShowNotification('Vous venez de sortir un Jet-Ski ~r~sans-permis ~w~!')
+                    ESX.ShowNotification('Vous venez de sortir un Sous-Marin Explorateur !')
                     Citizen.Wait(1)
                     spawnCar("Submersible2")
 
